@@ -95,8 +95,8 @@ jobs:
     - uses: actions/upload-artifact@v4
       with:
         name: aseprite
-        path: |
-          C:/a/aseprite/aseprite/build/bin/data
-          C:/a/aseprite/aseprite/build/bin/aseprite.exe
+        path: 
+          D:/a/aseprite/aseprite/build/bin/data
+          D:/a/aseprite/aseprite/build/bin/aseprite.exe
                   cd tests
                   $XVFB bash run-tests.sh
